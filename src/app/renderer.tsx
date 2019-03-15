@@ -4,4 +4,4 @@ import {Dashboard} from "./components/Dashboard";
 
 const element = (<Dashboard />);
 
-ReactDOM.render(element, document.getElementById('renderer'));
+ReactDOM.render(element, document.getElementById("renderer"));

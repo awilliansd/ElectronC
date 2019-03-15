@@ -354,9 +354,9 @@ module.exports = v4;
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var electron__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! electron */ "electron");
 /* harmony import */ var electron__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(electron__WEBPACK_IMPORTED_MODULE_0__);
-var url = __webpack_require__(/*! url */ "url");
-
 var path = __webpack_require__(/*! path */ "path");
+
+var url = __webpack_require__(/*! url */ "url");
 
 var _require = __webpack_require__(/*! electron-cgi */ "./node_modules/electron-cgi/index.js"),
     ConnectionBuilder = _require.ConnectionBuilder;
@@ -390,14 +390,14 @@ electron__WEBPACK_IMPORTED_MODULE_0__["app"].on("activate", function () {
     createWindow();
   }
 });
-var connection = new ConnectionBuilder().connectTo("dotnet", "run", "--project", "./core/Core").build();
+var connection = new ConnectionBuilder().connectTo("dotnet", "run", "--project", "./core").build();
 
 connection.onDisconnect = function () {
   console.log("lost");
 };
 
-connection.send("greeting", "TS", function (response) {
-  console.log(response);
+connection.send("greeting", " TTTeesstttt", function (response) {
+  window.webContents.send("greeting", response);
   connection.close();
 });
 

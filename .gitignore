@@ -1,2 +1,7 @@
 node_modules/node_modules/
 node_modules/
+core/obj/core.csproj.nuget.cache
+core/obj/core.csproj.nuget.g.props
+core/obj/project.assets.json
+core/obj/Debug/netcoreapp2.2/core.csproj.CoreCompileInputs.cache
+core/obj/Debug/netcoreapp2.2/project.razor.json
