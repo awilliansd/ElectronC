@@ -84,3 +84,16 @@ release-builds/ElectronC-win32-x64/resources/app.asar
 release-builds/ElectronC-win32-x64/resources/electron.asar
 release-builds/ElectronC-win32-x64/swiftshader/libEGL.dll
 release-builds/ElectronC-win32-x64/swiftshader/libGLESv2.dll
+core/obj/Debug/netcoreapp2.2/core.assets.cache
+core/bin/Debug/netcoreapp2.2/core.dll
+core/bin/Debug/netcoreapp2.2/core.pdb
+core/bin/Debug/netcoreapp2.2/core.deps.json
+core/bin/Debug/netcoreapp2.2/core.runtimeconfig.json
+core/bin/Debug/netcoreapp2.2/core.runtimeconfig.dev.json
+core/obj/core.csproj.nuget.g.targets
+core/obj/Debug/netcoreapp2.2/core.dll
+core/obj/Debug/netcoreapp2.2/core.pdb
+core/obj/Debug/netcoreapp2.2/core.csproj.CoreCompileInputs.cache
+core/obj/Debug/netcoreapp2.2/core.csproj.FileListAbsolute.txt
+core/obj/Debug/netcoreapp2.2/core.csprojAssemblyReference.cache
+core/obj/Debug/netcoreapp2.2/project.razor.json
