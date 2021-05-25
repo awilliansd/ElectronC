@@ -34,10 +34,13 @@
     "webpack-cli": "^4.5.0"
   },
   "dependencies": {
+    "browserslist": "^4.16.6",
     "hosted-git-info": "^4.0.2",
     "lodash": "^4.17.21",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "resolve-url": "^0.2.1",
+    "urix": "^0.1.0",
     "xmldom": "^0.5.0"
   }
 }
